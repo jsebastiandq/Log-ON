@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+}
+
+/* Header */
+
+.headerlogin {
+  align-items: center;
+  background-color: #005691;
+  color: #ffffff;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+}
+
+.header .bg-light {
+  background-color: #005691!important;
+}
+
+.header .navbar-light .navbar-text a {
+  color: #FFF;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  color: #FFF;
+}
+
+.header .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #FFF;
+}
+
+.header__img {
+  margin-left: 30px;
+  width: 200px;
+}
+
+.header__menu {
+	margin-right: 30px;
+}
+
+.header__menu ul {
+  display: none;
+  list-style: none;
+  margin: 0px 0px 0px -14px;
+  padding: 0px;
+  position: absolute;
+  width: 100px;
+  text-align: right;
+}
+
+.header__menu li {
+  margin: 10px 0px;
+  list-style: none;
+}
+
+.header__menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+
+.header__menu--profile {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.header__menu--profile img {
+  margin-right: 8px;
+  width: 40px;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.main__title {
+  color: #005691;
+  font-size: 25px;
+}
+
+.categories__title {
+  color: #005691;
+  font-size: 16px;
+  position: absolute;
+  padding-left: 30px;
+  width: 100%;
+}
+
+.search-home {
+  background-color: rgba(255,255,255,0.1);
+  border: 2px solid #005691;
+  border-radius: 25px;
+  color: #005691;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+  width: 70%;
+}
+
+/* Login */
+
+.login {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 30px;
+  min-height: calc(100vh - 200px);
+}
+
+.login__container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #005691;
+  border-radius: 40px;
+  color: #005691;
+  padding: 0px 60px 0px;
+  min-height: 600px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.login__container--info {
+  color: #005691;
+}
+
+.login__container--form {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+}
+.login__container--form label {
+  font-size: 14px;
+}
+.login__container--remember-me {
+  color: #005691;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.login__container--remember-me a {
+  color: #005691;
+  font-size: 14px;
+  text-decoration: none;
+}
+.login__container--remember-me a:hover {
+  text-decoration: underline;
+}
+.login__container--social-media > div {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.login__container--social-media > div > img {
+  width: 30px;
+  margin-right: 10px;
+}
+.login__container--register {
+  font-size: 14px;  
+}
+.login__container--register a {
+  color: #005691;
+  font-weight: bold;
+  font-size: 16px;  
+  text-decoration: none;
+}
+.login__container--register a:hover {
+  text-decoration: underline;
+}
+.input {
+  background-color: transparent;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid #005691;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 50px;
+}
+::placeholder {
+  color: #005691;
+}
+.button {
+  background-color: #005691;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;  
+  font-weight: bold; 
+  font-family: 'Muli', sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.footer a {
+  color: #005691;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;  
+}
+.footer a:hover {
+  text-decoration: underline; 
+}
